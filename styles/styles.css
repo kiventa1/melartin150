@@ -1,0 +1,57 @@
+@font-face {
+    font-family: metropolitain;
+    src: url('/Users/kaisu/Desktop/Projektikansio-toukokuu/fontit/metropolitain/metropolitain.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: boeklins-universe;
+    src: url('/Users/kaisu/Desktop/Projektikansio-toukokuu/fontit/boecklins-universe/boecklins-universe.ttf') format('truetype');
+}
+
+
+.footerfontti {
+    font-family: 'metropolitain', Arial, sans-serif;
+    font-size: large;
+}
+
+
+h1 {
+    font-family: metropolitain, Arial, sans-serif;
+    font-size: larger;
+}
+
+
+h2 {
+    font-family: boeklins-universe, Arial, sans-serif;
+    font-size: large;
+}
+
+h3 {
+    font-family: metropolitain, Arial, sans-serif;
+    font-size: medium;
+}
+
+h4 {
+    font-family: metropolitain, Arial, sans-serif;
+    font-size: medium;
+
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+
+blockquote {
+    font-family: 'PT Sans Narrow';
+    font-size: medium;
+}
+
+.nav-item {
+    font-family: 'metropolitain', Arial, sans-serif;
+
+}
+
+.accordion {
+    margin-bottom: 10px;
+}

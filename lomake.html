@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="fi">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Erkki Melartin 150 vuotta - juhlavuosi: Tilaa elämänkerta</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+        crossorigin="anonymous">
+</head>
+
+<!--navigaatio-->
+
+<body>
+    <div class="card text-center mb-5">
+        <div class="card-header">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="true" href="elamankerta.html">Palaa takaisin</a>
+                </li>
+            </ul>
+
+        </div>
+    </div>
+
+
+    <!--LOMAKE YLÄBANNERI-->
+
+    <div class="container">
+        <div class="row  d-flex align-items-center text-center mb-5">
+            <div class="col">
+                    <img src="kuvat/koriste-up.jpg" class="img-fluid pb-3 pt-1" alt="koriste">
+                    <h1 class="display-6">Tilaa Erkki Melartinin elämänkerta</h1>
+                    <p>Täytä tilauslomake ja tilaa Tuire Ranta-Meyerin kirjoittama, uusi Erkki Melartinin elämänkerta
+                        Melartin-seuralta.</p>
+                    <img src="kuvat/koriste-dwn.jpg" class="img-fluid pt-3" alt="koriste">
+            </div>
+        </div>
+        <div class="row justify-content-center">
+
+            <!--INFOA KIRJASTA-->
+            <div class="col flex-column text-center lh-sm">
+                <img src="kuvat/koriste-up.jpg" class="img-fluid" alt="koriste">
+                <h3>Uusi Erkki Melartinin elämänkertateos</h3>
+
+                <p>"Elämän säveliä: Erkki Melartinin tarina" kutsuu lukijan matkalle poikkeuksellisen suomalaisen,
+                    säveltäjä Erkki Melartinin, elämänvaiheiden äärelle. Tämä värikäs ja monipuolinen teos kuvaa
+                    Melartinin elämää ja vaikutusta musiikkimaailmaan, tarjoten syvällisen katsauksen hänen
+                    sävellyksiinsä ja persoonallisuuteensa.</p>
+
+                <p>Kirja esittelee Melartinin nuoruuden intohimoisen musiikinopiskelun sekä hänen nousunsa
+                    merkittäväksi säveltäjäksi ja kapellimestariksi. Lukija pääsee tutustumaan Melartinin
+                    monipuoliseen taiteelliseen lahjakkuuteen ja hänen työnsä jälkiin musiikinopetuksen saralla,
+                    joka ulottui aina
+                    Sibelius-Akatemian rehtoriksi saakka.</p>
+
+                <p>Teos tarjoaa myös ainutlaatuisen katsauksen Melartinin henkilökohtaiseen elämään ja ajatuksiin.
+                    Lukija saa kurkistuksen säveltäjän sydämeen ja sieluun, hänen rakkautensa luontoon, taiteeseen
+                    ja elämään yleensä. Melartinin ihanteellinen elämänasenne ja hänen vaikutuksensa
+                    musiikinopetukseen
+                    ja kulttuuriin ovat kuin sävelet, jotka kaikuvat läpi tämän kirjan.</p>
+
+                <p>"Elämän säveliä" on kunnianosoitus Erkki Melartinille, joka jätti jälkensä Suomen musiikilliseen
+                    maisemaan ja joka edelleen inspiroi ja koskettaa musiikinystäviä ympäri maailmaa. FT, tutkija
+                    Tuire Ranta-Meyer kirjoittaa vivahteikkaasti ja elävästi, teos pitää otteessaan alusta loppuun
+                    saakka. </p>
+                <img src="kuvat/koriste-dwn.jpg" class="img-fluid pt-4 pb-4" alt="koriste">
+            </div>
+            <div class="col-8  bg-warning  bg-opacity-50 m-4 pt-5 ps-4 pe-4 pb-5">
+                <h2>Tilauslomake: Erkki Melartinin elämänkerta</h2>
+
+                <form action="#" method="post" class="text-start">
+                    <div class="mb-3">
+                        <label for="bookCheckbox" class="form-label">
+                            <input type="checkbox" id="bookCheckbox" name="bookCheckbox">
+                            Tilaan Tuire Ranta-Meyerin uutuuskirjan "Elämän säveliä: Erkki Melartinin tarina".
+                        </label>
+                    </div>
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Tilaajan nimi</label>
+                        <input type="text" class="form-control" id="name" name="name" required>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <label for="address" class="form-label">Toimitusosoite</label>
+                            <input type="text" class="form-control" id="address" name="address" required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <label for="city" class="form-label">Postitoimipaikka</label>
+                            <input type="text" class="form-control" id="city" name="city" required>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Sähköpostiosoite</label>
+                        <input type="email" class="form-control" id="email" name="email" required>
+                        <p>Käytämme sähköpostiasi tilauksen vahvistamiseen ja tilauksen käsittelyyn.</p>
+                    </div>
+                    <div class="mb-3">
+                        <label for="additionalInfo" class="form-label">Lisätietoja</label>
+                        <textarea class="form-control" id="additionalInfo" name="additionalInfo" rows="3"></textarea>
+                    </div>
+                    <p>Huomaathan, että postitamme tilauksen antamaasi osoitteeseen, kun maksu näkyy Erkki Melartin -seuran tilillä.</p>
+                  
+                    <button type="submit" class="btn btn-dark d-flex justify-content-center" style="margin:auto;">Lähetä tilaus</button>
+                </form>
+
+            </div>
+
+
+
+        </div>
+
+
+    </div><!--päädivi-->
+    <!--FOOTER-->
+    <div class="row bg-dark text-white mt-5">
+        <div class="col-4 float-start">
+            <img src="kuvat/melartin150.png" style="max-width:100px;" class="m-4 mx-auto d-block"
+                alt="melartin-seuran juhlavuoden logo">
+        </div>
+        <div class="col-8 mt-5 mb-3">
+            <p class="footerfontti m-1">
+                Copyright: Erkki Melartin -seura, Tuire Ranta-Meyer &
+                Kaisu Kiventaus
+                <br><br> <a href="lahteet.html" class="text-decoration text-white">Verkkosivuston tekijät ja lähteet</a>
+            </p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
