@@ -1,11 +1,11 @@
 @font-face {
     font-family: metropolitain;
-    src: url('/Users/kaisu/Desktop/Projektikansio-toukokuu/fontit/metropolitain/metropolitain.ttf') format('truetype');
+    src: url('fontit/metropolitain/metropolitain.ttf') format('truetype');
 }
 
 @font-face {
     font-family: boeklins-universe;
-    src: url('/Users/kaisu/Desktop/Projektikansio-toukokuu/fontit/boecklins-universe/boecklins-universe.ttf') format('truetype');
+    src: url('fontit/boecklins-universe/boecklins-universe.ttf') format('truetype');
 }
 
 
